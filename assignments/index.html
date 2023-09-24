@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../style.css">
+    <title>Uppdrag</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand">Tom Serenander Konsult</a>
+
+            <button title="burger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index.html#react" class="nav-link">React</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#contact" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Assignments Header -->
+    <section class="mt-2 p-5 bg-primary text-light text-sm-start">
+        <div class="container">
+            <div class="row pt-3 align-items-center justify-content-evenly">
+                <div class="col-md text-start assignment-col-width">
+                    <h1 class="display-2">Uppdrag</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assignments -->
+    <section class="p-5 text-center">
+        <div class="container">
+            <div class="row pt-3 align-items-center justify-content-evenly">
+                <div class="col-md text-start assignment-col-width">
+                    <div class="assignment-margin-bottom">
+                        <h4>Atlas Copco
+                            <span>juni 22 - juni 23</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: C#, .Net 6, WPF, Git, Docker, SQL Server, TeamCity</p>
+                        <p>Utveckling av applikation för att konfigurera hela produktionslinor av högkvalitativa
+                            skruvdragare
+                            som används i bilfabriker över hela världen.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>PRI Pensionsgaranti
+                            <span>januari 22 - juni 22</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: C#, .Net Core, WinForms, Visual Studio, Git, Azure DevOps, SQL Server</p>
+                        <p>Vidareutveckling av internt system för att stödja kärnverksamheten, vilken är att analysera,
+                            förvalta och försäkra pensioner. Toms arbetsuppgifter har varit att rätta buggar och lägga
+                            till ny funktionalitet,
+                            bl.a. byta till nytt xml-format enligt ISO 20022 för de betalningsfiler som systemet
+                            producerar.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Trafikverket
+                            <span>april 17 - december 20</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: C#, WPF, Microservices, .Net Core, Visual Studio, Git, Azure DevOps Server, MSTest,
+                            NSubstitute</p>
+                        <p>Nyutveckling av ett system som ska användas på Sveriges trafikcentraler för att övervaka och
+                            styra fordonstrafiken.
+                            Systemet hanterar och informerar om t.ex. olyckor, tunnelbränder, vägarbeten m.m.
+                            Vidare styrs skyltar och bommar enligt givna regler. Jag jobbade i klienten med
+                            användargränssnitt,
+                            affärslogik och asynkron kommunikation med systemets mikrotjänster.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>ÅF/Ericsson
+                            <span>november 15 - mars 17</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare, Kravställare<Br />
+                            Teknik: Asp.Net, C#, javascript, SQL Server 2008, Visual Studio, Git, Gerrit, Jenkins</p>
+                        <p>Nyutveckling och underhåll av en webbapplikation som används inom Ericsson för att räkna
+                            på radiobasenheter innan de byggs ihop. Automatiska regressionstester implementerades i
+                            Robot framework.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Atlas Copco
+                            <span>november 14 - november 15</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: Silverlight, MVVM, C#, Visual Studio</p>
+                        <p>Underhåll och vidareutveckling av ett konfigurationsverktyg för skruvdragare som används i
+                            bilindustrin.</p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Seaware
+                            <span>maj 13 - augusti 14</span>
+                        </h4>
+                        <p>Roll: Systemarkitekt, Utvecklare, Grafisk gränssnittsdesigner<Br />
+                            Teknik: WPF, MVVM, C#, Visual Studio</p>
+                        <p>Utveckling av en applikation i vilken man planerar och dokumenterar fartygsrutter för att
+                            uppfylla myndighetskrav.
+                            Programmet används ombord på tankfartyg och kan importera rutter från samtliga ledande
+                            navigationssystem. Rutterna ritas också ut på en karta.
+                            Slutkunden är BW Gas – ett av världens största tankerrederier. Tom utvecklade systemet själv
+                            från ax till limpa.</p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Seaware
+                            <span>maj 12 – december 12</span>
+                        </h4>
+                        <p>Roll: Utvecklare, Grafisk gränssnittsdesigner, Kravspecifikationsförfattare<Br />
+                            Teknik: Adobe PDF Forms, C#, Visual Studio, SQL Server, MySql</p>
+                        <p>Framtagning av PDF Forms inklusive grafisk design, användarvänlighet, inmatningsvalidering
+                            och bakomliggande logik i javascript.
+                            Formulären används av kaptener på tankfartyg som dagligen fyller i dessa och rapporterar
+                            position, kurs, bränsleförbrukning m.m.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Trygghetsrådet
+                            <span>maj 11 – december 11</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: Visual Studio, C#, Asp.Net, SQL Server, Entity Framework, jQuery, SOA, Subversion,
+                            Membership Provider, webservices, javascript.</p>
+                        <p>Utveckling av en ny webbsajt för att ansöka digitalt hos Trygghetsrådet. Ansökningarna från
+                            företag gjordes med en fil som användaren
+                            laddade upp, som sedan parsades och vars innehåll sparades till databas. Privatpersoner
+                            använde ett webbformulär för sina ansökningar.
+                            Syftet med applikationen var att automatisera och effektivisera ansökningsprocessen, samt
+                            att förbättra spårbarheten.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>ITT Water and Wastewater
+                            <span>april 11 – maj 11</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: Visual Studio, C#, .Net framework 4.0, Silverlight, WPF, Subversion, Crystal
+                            Reports, MVVM</p>
+                        <p>Arbetade i ett team som utvecklade ett webbaserat verktyg för konstruktion av
+                            vattenreningssystem. Applikationen var baserad på .Net och
+                            Silverlight för att optimera grafisk interaktion och användbarhet, och var uppbyggt enligt
+                            arkitekturen MVVM. Tom implementerade
+                            ny funktionalitet samt vidareutvecklade en rapport i Crystal Reports.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Flir Systems
+                            <span>oktober 07 – mars 11</span>
+                        </h4>
+                        <p>Roll: Kravanalytiker, Systemarkitekt, Systemutvecklare<Br />
+                            Teknik: Visual Studio, C#, Windows Forms, Asp.Net, SQL Server, XML, Web Services, Perforce,
+                            Enterprise Library, Java, MVC</p>
+                        <p>Utveckling av produktionssystem i .Net och Java för tillverkning av IR-kameror. Syftet med de
+                            nya systemen har varit att ha bättre spårbarhet
+                            på ingående komponenter, effektivisera produktionsprocessen och erbjuda webbrapporter med
+                            produktionsmått, felstatistik m.m. för att angripa
+                            rätt problem och därigenom höja kvaliteten, både i produktionsprocessen och på kamerorna i
+                            sig. Tom ansvarade bl.a. för implementation och
+                            driftsättning av det första produktionssystemet i kundens nya fabrik i Estland. I arbetet
+                            har ingått design och utveckling av windows- och
+                            webbapplikationer, databasdesign och felsökning, prestandaoptimering, drift samt replikering
+                            mellan databaserna i Sverige och Estland.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>KMT UVA
+                            <span>maj 05 – juli 07</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: Visual Studio, C#, Windows Forms, SQL Server, XML, Source Safe</p>
+                        <p>Vidareutveckling av en .Net-applikation för analys av sliphål. Arbetet innebar implementation
+                            av ny funktionalitet, nyutveckling av
+                            användargränssnittet, datalagring, kommunikation med mätsystem samt matematiska/statistiska
+                            utvärderingar.
+                            Kommunikationen mellan applikationen och mätsystemet skedde m.h.a. XML-meddelanden via
+                            datasockets.
+                            Uppgradering av databasen från Access till SQL Server gjordes för att uppnå högre stabilitet
+                            i produktionsmiljö. Prestandaförbättring nåddes genom införandet av s.k. stored procedures.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Phadia
+                            <span>augusti 06 – september 06 (deltid samtidigt som uppdraget ovan)</span>
+                        </h4>
+                        <p>Roll: Databasutvecklare<Br />
+                            Teknik: MS Access, SQL Server</p>
+                        <p>Migrering av data i en Access-databas till en ny, befintlig Oracle-databas i produktionsmiljö
+                            med lite annan tabellstruktur.
+                            Löstes genom s.k. ”upsizing” av Access-databasen till en SQL Server-databas, där
+                            konverteringen till den nya strukturen gjordes
+                            m.h.a. verktyget Enterprise Manager (skapade nya tabeller och relationer, bytte datatyper,
+                            flyttade data, skapade nya primära nycklar m.m).
+                            Sedan användes en egenutvecklad .Net-applikation för överflyttning av data till
+                            Oracle-databasen.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Kongsberg
+                            <span>januari 05 – mars 05</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW, C</p>
+                        <p>Utveckling av ett antal delar i ett testsystem för sätesvärmare till bilar, för produktion i
+                            fabrik i Kina, Brasilien, Polen m.m: Stöd för språkhantering i användargränssnitt,
+                            drivrutin till etikettskrivare, databasanrop samt visning av Word och PDF-dokument i
+                            användargränssnitt m.h.a. ActiveX-komponent.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Stoneridge Electronics
+                            <span>oktober 04 – januari 05</span>
+                        </h4>
+                        <p>Roll: Systemtestare<Br />
+                            Teknik: CAN bus, CAPL</p>
+                        <p>Systemtest av huvudinstrumenteringen till lastbilar. Tysk kravspec. Testobjektet var ett
+                            inbyggt system med mjukvara skriven i C.
+                            Kommunikation med övriga delsystem i bilen skedde via CAN-buss. Arbetet omfattade planering
+                            av systemtester, specificering och exekvering av testfall samt rapportering.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Scania
+                            <span>mars 04 – oktober 04</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare, Mentor<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Utveckling av automatiskt styrsystem för provrigg. Hjälpte en fast anställd med systemets
+                            design och programmering.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Stoneridge Electronics
+                            <span>oktober 03 – februari 04</span>
+                        </h4>
+                        <p>Roll: Systemtestare<Br />
+                            Teknik: CAN bus, CAPL</p>
+                        <p>Mjukvarutest av instrumenteringen till lastbilar. Testobjektets omgivning innehöll simulerade
+                            CAN-noder som programmerades m.h.a. det C-baserade språket CAPL.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Scania
+                            <span>november 02 – maj 03</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Utveckling av automatiskt styrsystem för insprutningsprovrigg. Fungerade som sakkunnig mentor
+                            inom LabVIEW och objektorientering.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Ericsson Mobile Platforms
+                            <span>november 01 – november 02</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Design, implementation, test och underhåll av en applikation, vilken fungerade som ett
+                            debugverktyg, med ett interaktivt,
+                            grafiskt användargränssnitt ovanpå det testsystem som Endevo utvecklade för
+                            konstruktionsverifiering av Ericssons 3G-mobilplattform.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h6>Föräldraledig juli 01 – oktober 01</h6>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h6>Genomförde Certifieringsuppgift maj 01 – juni 01</h6>
+                        <p>Roll: Systemarkitekt, Systemutvecklare<Br />
+                            Teknik: Java</p>
+                        <p>Gjorde ett flygbokningssystem som en del i certifieringen "Sun Certified Java Developer”.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Ericsson Utvecklings AB
+                            <span>mars 00 – april 01</span>
+                        </h4>
+                        <p>Roll: Integrationstestare, Systemutvecklare <Br />
+                            Teknik: Unix, Java</p>
+                        <p>Test och integration av en Ericsson-utvecklad, Java-baserad objektbrowser för att övervaka
+                            och styra telekomenheter.
+                            Spelade in och redigerade automatiska GUI-tester av nämnda objektbrowser.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h6>Föräldraledig augusti 99 – feb 00</h6>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Astra Production Liquids
+                            <span>mars 99 – juli 99</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Utveckling av automatiskt kalibreringssystem för de luftfuktighetssensorer som används i
+                            företagets produktion.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Ericsson Radio Access
+                            <span>mars 99 – juli 99</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Vidareutveckling av befintligt testprogram för s.k. Combiners som blandar antennsignaler i
+                            radiobasstationer.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Siemens-Elema
+                            <span>juli 98 – mars 99</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Utveckling av automatiskt testsystem för delsystem i Ventilator.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Pacesetter
+                            <span>februari 98 – juli 98</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Validering av programkod i automatiskt produktionsverifieringssystem för pacemakers.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Ericsson Radio Systems
+                            <span>november 97 – januari 98</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Utveckling av automatiskt konstruktionsverifieringssystem för sändare och mottagare i
+                            radiobasstation.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Ericsson Components
+                            <span>september 97 – december 97</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: C++</p>
+                        <p>Systemering och implementation av två delar i ett kvalitetsstyrningssystem för
+                            elektronikkretsar.
+                        </p>
+                    </div>
+                    <div class="assignment-margin-bottom">
+                        <h4>Siemens-Elema
+                            <span>september 95 – juli 97</span>
+                        </h4>
+                        <p>Roll: Systemutvecklare<Br />
+                            Teknik: LabVIEW</p>
+                        <p>Utveckling av automatiskt testsystem för delsystem Kontrollenheten i Anestesiapparat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="p-5 bg-dark text-light text-center position-relative">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md py-3">
+                    <p>Copyright &copy; 2023 Tom Serenander Konsult AB</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
