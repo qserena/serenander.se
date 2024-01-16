@@ -6,7 +6,7 @@ body {
 	font-weight: 300;
 }
 
-img {
+.img-avatar {
 	width: 260px;
 	border-radius: 50%;
 	border: solid white 10px;
