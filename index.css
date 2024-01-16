@@ -105,23 +105,17 @@ a:focus {
 	color: #131313;
 }
 
-.btn {
+.my-btn {
 	display: inline-block;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 12px;
 	background: #99d930;
 	color: #252525;
 	text-decoration: none;
-	padding: 15px 30px;
+	padding: 6px 30px;
 }
 
-.btn:hover,
-.btn:focus {
-	background: #252525;
-	color: #fff;
-}
-
-.inverse .btn:hover,
-.inverse .btn:focus {
+.my-btn:hover,
+.my-btn:focus {
 	background: #fff;
-	color: #252525;
 }
