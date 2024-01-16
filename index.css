@@ -119,3 +119,22 @@ a:focus {
 .my-btn:focus {
 	background: #fff;
 }
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills__skill {
+	padding: 0.6rem 1.6rem;
+	margin-bottom: 1.5rem;
+	margin-right: 1.5rem;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	font-weight: 600;
+	color: white;
+}
+
+footer p {
+	font-size: 1rem;
+}
