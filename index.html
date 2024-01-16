@@ -9,6 +9,17 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
 		/>
 
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+
 		<link rel="stylesheet" href="index.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -51,16 +62,21 @@
 		<!-- Presentation -->
 		<header class="inverse">
 			<div class="container">
-				<h1>Hej, jag heter <span>Tom Serenander</span></h1>
+				<h1>Hej, mitt namn är</h1>
+				<h1><span>Tom Serenander</span></h1>
 				<img src="./img/Tom.jpg" alt="Portrait of Tom" />
+			</div>
+		</header>
 
+		<section class="about-me">
+			<div class="container">
 				<h2>
 					Jag är systemutvecklare med fokus på
 					<span class="accent-text">React</span> och
 					<span class="accent-text">.Net</span>
 				</h2>
 			</div>
-		</header>
+		</section>
 
 		<!-- Boxes -->
 		<section class="p-5">
@@ -68,6 +84,24 @@
 				<div class="row text-center g-4">
 					<div class="col-md">
 						<div class="card bg-dark text-light">
+							<div class="card-body text-center">
+								<div class="h1 mb-3">
+									<i class="bi bi-building"></i>
+								</div>
+								<h3 class="card-title mb-3">React Portfolio</h3>
+								<p class="card-text">
+									Några projekt gjorda i React.
+								</p>
+								<a
+									href="https://tseren.netlify.app/#projects"
+									class="btn btn-primary my-1"
+									>Läs mer</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card bg-secondary text-light">
 							<div class="card-body text-center">
 								<div class="h1 mb-3">
 									<i class="bi bi-building"></i>
@@ -84,7 +118,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md">
+					<!-- <div class="col-md">
 						<div class="card bg-secondary text-light">
 							<div class="card-body text-center">
 								<div class="h1 mb-3">
@@ -99,7 +133,7 @@
 								>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-md">
 						<div class="card bg-dark text-light">
 							<div class="card-body text-center">
@@ -117,39 +151,6 @@
 								>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- React promo -->
-		<section id="react" class="p-5">
-			<div class="container">
-				<div class="row align-items-center justify-content-between">
-					<div class="col-md">
-						<img src="img/react.svg" class="img-fluid" alt="" />
-					</div>
-					<div class="col-md p-5">
-						<h2>React</h2>
-						<p class="lead">React är superkul att jobba med!</p>
-						<p>
-							Bästa sättet att lära sig är såklart att göra egna
-							implementationer.
-						</p>
-						<p>
-							Här har jag gjort en React-applikation där man kan
-							skapa (och ta bort) anteckningar. Det är bara att
-							klicka på knappen nedan och testa runt!
-							Anteckningarna sparas lokalt i din browser, så ingen
-							annan kan se dem.
-						</p>
-						<a
-							href="https://demo.serenander.se/Notes/notes.html"
-							class="btn btn-primary text-light mt-3"
-						>
-							<i class="bi bi-chevron-right"></i> Till
-							applikationen!
-						</a>
 					</div>
 				</div>
 			</div>
@@ -175,9 +176,6 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-md">
-						<div id="map"></div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -193,7 +191,7 @@
 						/>
 					</div>
 					<div class="col-md py-3">
-						<p>Copyright &copy; 2023 Tom Serenander Konsult AB</p>
+						<p>Copyright &copy; 2024 Tom Serenander Konsult AB</p>
 					</div>
 					<div class="col-md py-3">
 						<div
@@ -212,39 +210,5 @@
 				</div>
 			</div>
 		</footer>
-
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-			crossorigin="anonymous"
-		></script>
-		<script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
-		<script>
-			mapboxgl.accessToken =
-				'pk.eyJ1IjoicXNlcmVuYSIsImEiOiJja3ZsN3ZuYTUwbXR0MnJvdWttY3psMGRsIn0.Gw49WcV4HsoaD4NLaOEXAg'
-			var map = new mapboxgl.Map({
-				container: 'map',
-				style: 'mapbox://styles/mapbox/streets-v11',
-				center: [18.08232, 59.33691],
-				zoom: 12,
-			})
-
-			map.addControl(new mapboxgl.NavigationControl())
-
-			// create the popup
-			const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
-				'<br/>Tom Serenander Konsult, Linnégatan 35'
-			)
-
-			// Create a default Marker and add it to the map.
-			const marker1 = new mapboxgl.Marker()
-				.setLngLat([18.08232, 59.33691])
-				.setPopup(popup) // add popup
-				.addTo(map)
-
-			map.on('load', function () {
-				map.resize()
-			})
-		</script>
 	</body>
 </html>
