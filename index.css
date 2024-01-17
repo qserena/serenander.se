@@ -4,12 +4,18 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 21px;
 	font-weight: 300;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .img-avatar {
 	width: 260px;
 	border-radius: 50%;
 	border: solid white 10px;
+}
+
+#navmenu {
+	text-align: right;
 }
 
 /* typography */
@@ -20,19 +26,16 @@ h2 {
 	margin-top: 0;
 }
 
+h1 {
+	font-size: 60px;
+}
+
 h1 span {
+	font-size: 80px;
 	font-weight: 700;
 	line-height: 100%;
 	display: block;
 	margin-bottom: 40px;
-}
-
-h2 span {
-	font-weight: 900;
-}
-
-h1 {
-	font-size: 60px;
 }
 
 h2 {
@@ -42,12 +45,10 @@ h2 {
 	padding: 25px 0;
 }
 
-h1 span {
-	font-size: 80px;
-}
-
 h2 span {
 	font-size: 60px;
+	font-weight: 900;
+	margin-top: 60px;
 }
 
 h3 {
