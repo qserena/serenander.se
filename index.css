@@ -9,6 +9,7 @@ body {
 }
 
 .img-avatar {
+	margin-top: 10px;
 	width: 260px;
 	border-radius: 50%;
 	border: solid white 10px;
@@ -129,13 +130,10 @@ a {
 	background: #fff;
 }
 
-/* .competences {
-	display: flex;
-	flex-direction: column;
-} */
-
 .skills {
+	margin-top: 40px;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
