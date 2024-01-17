@@ -61,6 +61,14 @@ p {
 	margin-bottom: 0;
 }
 
+.about-me {
+	margin-top: 30px;
+}
+
+.boxes {
+	margin-bottom: 30px;
+}
+
 .accent-text,
 .articles .name,
 .articles time {
@@ -98,12 +106,11 @@ section {
 
 a {
 	color: #99d930;
-	font-weight: 900;
 }
 
-a:hover,
-a:focus {
-	color: #131313;
+.up-link:hover,
+.up-link:focus {
+	color: white;
 }
 
 .my-btn {
@@ -112,6 +119,7 @@ a:focus {
 	margin-bottom: 12px;
 	background: #99d930;
 	color: #252525;
+	font-weight: 900;
 	text-decoration: none;
 	padding: 6px 30px;
 }
@@ -120,6 +128,11 @@ a:focus {
 .my-btn:focus {
 	background: #fff;
 }
+
+/* .competences {
+	display: flex;
+	flex-direction: column;
+} */
 
 .skills {
 	display: flex;
