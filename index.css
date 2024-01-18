@@ -119,7 +119,7 @@ a {
 
 .up-link:hover,
 .up-link:focus {
-	color: white;
+	color: #b9e66f;
 }
 
 .my-btn {
@@ -135,8 +135,11 @@ a {
 
 .my-btn:hover,
 .my-btn:focus {
-	background: #fff;
+	background: #b9e66f;
 }
+/* .my-btn:hover {
+	transform: translateY(-3px);
+} */
 
 .skills {
 	margin-top: 40px;
