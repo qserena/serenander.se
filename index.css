@@ -60,7 +60,7 @@ h3 {
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 300;
 	line-height: 1.5em;
 	margin-bottom: 5px;
@@ -104,6 +104,11 @@ section {
 .container {
 	min-width: 320px;
 	margin: 0 auto;
+}
+
+.container-narrow {
+	min-width: 320px;
+	margin: 0 70px;
 }
 
 .inverse {
