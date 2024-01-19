@@ -124,7 +124,7 @@ a {
 
 .up-link:hover,
 .up-link:focus {
-	color: #b9e66f;
+	color: white;
 }
 
 .my-btn {
@@ -140,8 +140,18 @@ a {
 
 .my-btn:hover,
 .my-btn:focus {
-	background: #b9e66f;
+	background: #252525;
+	color: #fff;
 }
+
+.bg-dark .my-btn:hover,
+.bg-dark .my-btn:focus,
+.bg-secondary .my-btn:hover,
+.bg-secondary .my-btn:focus {
+	background: #fff;
+	color: #252525;
+}
+
 /* .my-btn:hover {
 	transform: translateY(-3px);
 } */
