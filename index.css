@@ -7,7 +7,7 @@ body {
 	user-select: none;
 }
 
-.body-center {
+.center-text {
 	text-align: center;
 }
 
@@ -66,6 +66,12 @@ h4 {
 	margin-bottom: 5px;
 }
 
+h5 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.7em;
+}
+
 .p-zero-bottom {
 	margin-bottom: 0;
 }
@@ -106,6 +112,12 @@ section {
 	margin: 0 auto;
 }
 
+.container-img {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
 .container-narrow {
 	min-width: 320px;
 	margin: 0 70px;
@@ -138,8 +150,27 @@ a {
 	padding: 6px 30px;
 }
 
+.my-btn-code {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 12px;
+	margin-left: 20px;
+	background: white;
+	color: #252525;
+	border: solid 3px #252525;
+	font-weight: 900;
+	text-decoration: none;
+	padding: 4px 28px;
+}
+
 .my-btn:hover,
 .my-btn:focus {
+	background: #252525;
+	color: #fff;
+}
+
+.my-btn-code:hover,
+.my-btn-code:focus {
 	background: #252525;
 	color: #fff;
 }
@@ -159,18 +190,26 @@ a {
 .skills {
 	margin-top: 40px;
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
+}
+
+.inverse .skills {
+	justify-content: center;
 }
 
 .skills__skill {
 	padding: 0.6rem 1.6rem;
-	margin-bottom: 1.5rem;
 	margin-right: 1.5rem;
 	font-size: 1.2rem;
 	border-radius: 5px;
 	font-weight: 600;
+	background-color: rgba(153, 153, 153, 0.2);
+	color: #252525;
+}
+
+.inverse .skills__skill {
 	color: white;
+	margin-bottom: 1.5rem;
 }
 
 /* Month and Year font in assignment header */
@@ -203,6 +242,11 @@ h3 span {
 .img-reduced-size {
 	max-width: 250px;
 	max-height: 200px;
+}
+
+.project-details__showcase-img {
+	width: 100%;
+	border: solid gray 1px;
 }
 
 footer p {
