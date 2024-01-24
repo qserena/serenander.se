@@ -18,6 +18,11 @@ body {
 	border: solid white 10px;
 }
 
+.img-react-logo {
+	width: 48px;
+	color: white;
+}
+
 #navmenu {
 	text-align: right;
 }
@@ -201,6 +206,7 @@ a {
 .skills__skill {
 	padding: 0.6rem 1.6rem;
 	margin-right: 1.5rem;
+	margin-bottom: 1.5rem;
 	font-size: 1.2rem;
 	border-radius: 5px;
 	font-weight: 600;
@@ -210,7 +216,6 @@ a {
 
 .inverse .skills__skill {
 	color: white;
-	margin-bottom: 1.5rem;
 }
 
 /* Month and Year font in assignment header */
