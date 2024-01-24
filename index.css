@@ -56,7 +56,7 @@ h2 span {
 h3 {
 	font-size: 36px;
 	font-weight: 900;
-	margin-bottom: 0;
+	margin-bottom: 14px;
 }
 
 h4 {
@@ -113,6 +113,7 @@ section {
 }
 
 .container-img {
+	text-align: center;
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -246,6 +247,12 @@ h3 span {
 
 .project-details__showcase-img {
 	width: 100%;
+	border: solid gray 1px;
+}
+
+.project-details__showcase-img-reduced {
+	width: 100%;
+	max-width: 500px;
 	border: solid gray 1px;
 }
 
