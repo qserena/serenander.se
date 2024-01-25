@@ -21,10 +21,17 @@ body {
 .img-react-logo {
 	width: 48px;
 	color: white;
+	margin-top: 2px;
+	margin-bottom: -2px;
 }
 
 #navmenu {
 	text-align: right;
+}
+
+.select-ok {
+	-webkit-user-select: text;
+	user-select: select-ok;
 }
 
 /* typography */
@@ -113,7 +120,7 @@ section {
 }
 
 .container {
-	min-width: 320px;
+	/* min-width: 320px; */
 	margin: 0 auto;
 }
 
@@ -125,7 +132,7 @@ section {
 }
 
 .container-narrow {
-	min-width: 320px;
+	/* min-width: 320px; */
 	margin: 0 70px;
 }
 
