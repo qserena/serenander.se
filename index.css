@@ -43,30 +43,30 @@ h2 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 3.75rem; /* 60px */
 }
 
 h1 span {
-	font-size: 80px;
+	font-size: 5rem; /* 80px */
 	font-weight: 700;
 	line-height: 100%;
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 0.25em; /* 20px */
 }
 
 h2 {
-	font-size: 42px;
-	padding: 25px 0;
+	font-size: 2.63rem; /*  42px; */
+	padding: 0.6em 0; /* 25px */
 }
 
 h2 span {
-	font-size: 60px;
+	font-size: 3.75rem; /* 60px */
 	font-weight: 900;
-	margin-top: 60px;
+	margin-top: 1em; /* 60px */
 }
 
 h3 {
-	font-size: 36px;
+	font-size: 2.25rem; /* 36px; */
 	font-weight: 900;
 	margin-bottom: 14px;
 }
@@ -120,7 +120,6 @@ section {
 }
 
 .container {
-	/* min-width: 320px; */
 	margin: 0 auto;
 }
 
@@ -132,7 +131,6 @@ section {
 }
 
 .container-narrow {
-	/* min-width: 320px; */
 	margin: 0 70px;
 }
 
@@ -270,4 +268,26 @@ h3 span {
 
 footer p {
 	font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 2.5rem; /* 40px */
+	}
+
+	h1 span {
+		font-size: 3rem; /* 48px */
+	}
+
+	h2 {
+		font-size: 2rem; /*  32px; */
+	}
+
+	h2 span {
+		font-size: 2.5rem; /* 40px */
+	}
+
+	h3 {
+		font-size: 1.75rem; /* 28px; */
+	}
 }
