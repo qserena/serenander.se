@@ -254,6 +254,42 @@ footer p {
 	font-size: 1rem;
 }
 
+.footer-icons {
+	margin-top: 40px;
+	background: #161619;
+	padding: 20px 72px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-hero__socials {
+	position: absolute;
+	top: 50%;
+	border: 2px solid #eee;
+	border-left: 2px solid #eee;
+	transform: translateY(-50%);
+}
+
+.home-hero__social {
+	width: 5rem;
+}
+.home-hero__social-icon-link {
+	width: 100%;
+	display: block;
+	padding: 1.2rem;
+	border-bottom: 2px solid #eee;
+	transition: background 0.3s;
+}
+.home-hero__social-icon-link:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+.home-hero__social-icon-link--bd-none {
+	border-bottom: 0;
+}
+.home-hero__social-icon {
+	width: 100%;
+}
+
 @media (max-width: 500px) {
 	h1 {
 		font-size: 2.5rem; /* 40px */
