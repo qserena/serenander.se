@@ -254,13 +254,13 @@ footer p {
 	font-size: 1rem;
 }
 
-.footer-icons {
+/* .footer-icons {
 	margin-top: 40px;
 	background: #161619;
 	padding: 20px 72px;
 	display: flex;
 	justify-content: space-between;
-}
+} */
 
 .home-hero__socials {
 	position: absolute;
@@ -280,14 +280,16 @@ footer p {
 	border-bottom: 2px solid #eee;
 	transition: background 0.3s;
 }
-.home-hero__social-icon-link:hover {
-	background: rgba(255, 255, 255, 0.1);
-}
+
 .home-hero__social-icon-link--bd-none {
 	border-bottom: 0;
 }
 .home-hero__social-icon {
+	background-color: #252525;
 	width: 100%;
+}
+.home-hero__social-icon:hover {
+	background-color: #99d930;
 }
 
 @media (max-width: 500px) {
