@@ -284,10 +284,23 @@ footer p {
 .home-hero__social-icon-link--bd-none {
 	border-bottom: 0;
 }
+
 .home-hero__social-icon {
 	background-color: #252525;
+}
+
+.social-icon-normal {
 	width: 100%;
 }
+
+.social-icon-reduced {
+	width: 95%;
+}
+
+.social-icon-enlarged {
+	width: 120%;
+}
+
 .home-hero__social-icon:hover {
 	background-color: #99d930;
 }
