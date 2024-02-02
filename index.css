@@ -254,25 +254,18 @@ footer p {
 	font-size: 1rem;
 }
 
-/* .footer-icons {
-	margin-top: 40px;
-	background: #161619;
-	padding: 20px 72px;
-	display: flex;
-	justify-content: space-between;
-} */
-
-.home-hero__socials {
+/* .home-hero__socials {
 	position: absolute;
 	top: 50%;
 	border: 2px solid #eee;
 	border-left: 2px solid #eee;
 	transform: translateY(-50%);
-}
+} */
 
 .home-hero__social {
-	width: 5rem;
+	width: 15rem;
 }
+
 .home-hero__social-icon-link {
 	width: 100%;
 	display: block;
