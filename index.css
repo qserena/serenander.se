@@ -254,47 +254,27 @@ footer p {
 	font-size: 1rem;
 }
 
-/* .home-hero__socials {
-	position: absolute;
-	top: 50%;
-	border: 2px solid #eee;
-	border-left: 2px solid #eee;
-	transform: translateY(-50%);
-} */
-
-.home-hero__social {
-	width: 15rem;
+.socials {
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
-.home-hero__social-icon-link {
-	width: 100%;
-	display: block;
-	padding: 1.2rem;
-	border-bottom: 2px solid #eee;
-	transition: background 0.3s;
-}
-
-.home-hero__social-icon-link--bd-none {
-	border-bottom: 0;
-}
-
-.home-hero__social-icon {
-	background-color: #252525;
+.social {
+	width: 3rem;
+	margin: 2em 1em;
 }
 
 .social-icon-normal {
-	width: 100%;
+	width: 90%;
 }
 
 .social-icon-reduced {
-	width: 95%;
+	width: 90%;
+	padding-top: 2px;
 }
 
-.social-icon-enlarged {
-	width: 120%;
-}
-
-.home-hero__social-icon:hover {
+.social-icon:hover {
 	background-color: #99d930;
 }
 
