@@ -1,7 +1,7 @@
 # serenander.se - Tom Serenander Konsult's website
 
 ## Description
-This website is a presentation of Tom Serenander's previous professional experiences and current skills.
+This website is a presentation of Tom Serenander's professional experiences and current skills.
 
 Manually built in HTML including some Bootstrap elements.
 
