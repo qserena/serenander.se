@@ -14,7 +14,7 @@ Manually built in HTML including some Bootstrap elements.
 - Bootstrap
 
 ## Future improvements
-- Add english language (now the site is in swedish only)
+- Add english language (now all text is in swedish)
 
 ## Live link
 The website is deployed here:
