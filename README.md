@@ -3,10 +3,10 @@
 ## Description
 This website is a presentation of Tom Serenander's previous professional experiences and current skills.
 
-This app is built with React Router to handle client-side routing.
+Manually built in HTML with som Bootstrap elements.
 
 <br/>
-<img src="./vanlife.png" alt="Screenshot of VanLife app." width="600px"/>
+<img src="./readme-screenshot.png" alt="Screenshot of website." width="600px"/>
 
 ## Technologies
 - HTML
