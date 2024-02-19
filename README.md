@@ -1,20 +1,23 @@
 # serenander.se - Tom Serenander Konsult's website
 
 ## Description
-This website is a presentation of Tom Serenander's previous professional experiences and current skills.
+This website is a presentation of Tom Serenander's professional experiences and current skills.
 
-This app is built with React Router to handle client-side routing.
+Manually built in HTML including some Bootstrap elements.
 
 <br/>
-<img src="./vanlife.png" alt="Screenshot of VanLife app." width="600px"/>
+<img src="img/readme-screenshot.png" alt="Screenshot of website." width="600px"/>
 
 ## Technologies
 - HTML
 - CSS
 - Bootstrap
 
+## Future improvements
+- Add english language (now all texts are in swedish)
+
 ## Live link
 The website is deployed here:
-[https://serenander.se/)
+[https://serenander.se/](https://serenander.se/)
 
 Please feel free to click around and explore!
