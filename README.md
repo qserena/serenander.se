@@ -3,7 +3,7 @@
 ## Description
 This website is a presentation of Tom Serenander's previous professional experiences and current skills.
 
-Manually built in HTML with som Bootstrap elements.
+Manually built in HTML including some Bootstrap elements.
 
 <br/>
 <img src="img/readme-screenshot.png" alt="Screenshot of website." width="600px"/>
