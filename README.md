@@ -15,6 +15,6 @@ Manually built in HTML with som Bootstrap elements.
 
 ## Live link
 The website is deployed here:
-[https://serenander.se/)
+[https://serenander.se/]
 
 Please feel free to click around and explore!
