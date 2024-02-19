@@ -13,6 +13,9 @@ Manually built in HTML including some Bootstrap elements.
 - CSS
 - Bootstrap
 
+## Future improvements
+- Add english language (now the site is in swedish only)
+
 ## Live link
 The website is deployed here:
 [https://serenander.se/](https://serenander.se/)
