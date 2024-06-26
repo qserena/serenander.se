@@ -30,7 +30,7 @@
         <title>Tom Serenander Konsult</title>
     </head>
 
-    <body class="center-text">
+    <body id="root" class="center-text">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
             <div class="container">
@@ -65,12 +65,27 @@
                         </li>
                     </ul>
                 </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="changeLanguage('en')"
+                                >English</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" onclick="changeLanguage('se')"
+                                >Swedish</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </nav>
 
         <!-- Presentation -->
         <header class="inverse">
-            <div class="container">
+            <div class="container swedish">
                 <h1>Hej, mitt namn är</h1>
                 <h1><span>Tom Serenander</span></h1>
                 <img
@@ -79,7 +94,41 @@
                     alt="Portrait of Tom"
                 />
             </div>
+            <div class="container english">
+                <h1>Hi, my name is</h1>
+                <h1><span>Tom Serenander</span></h1>
+                <img
+                    class="img-avatar"
+                    src="./img/Tom.jpg"
+                    alt="Portrait of Tom"
+                />
+            </div>
         </header>
+
+        <!-- Presentation -->
+        <!-- <header class="inverse swedish">
+            <div class="container">
+                <h1>Hej, mitt namn är</h1>
+                <h1><span>Tom Serenander</span></h1>
+                <img
+                    class="img-avatar swedish"
+                    src="./img/Tom.jpg"
+                    alt="Portrait of Tom"
+                />
+            </div>
+        </header>
+
+        <header class="inverse english">
+            <div class="container">
+                <h1>Hi, my name is</h1>
+                <h1><span>Tom Serenander</span></h1>
+                <img
+                    class="img-avatar english"
+                    src="./img/Tom.jpg"
+                    alt="Portrait of Tom"
+                />
+            </div>
+        </header> -->
 
         <section class="x-margin-top p-1">
             <div class="container">
@@ -273,5 +322,6 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"
         ></script>
+        <script src="./index.js"></script>
     </body>
 </html>
