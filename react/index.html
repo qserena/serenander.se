@@ -1,238 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="../index.css" />
-		<title>React Portfolio</title>
-	</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../index.css" />
+        <title>React Portfolio</title>
+    </head>
 
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-			<div class="container">
-				<a href="../index.html" class="navbar-brand"
-					>Tom Serenander Konsult</a
-				>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand"
+                    >Tom Serenander Konsult</a
+                >
 
-				<button
-					title="burger"
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navmenu"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+                <button
+                    title="burger"
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-				<div class="collapse navbar-collapse" id="navmenu">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
-							<a href="../react/index.html" class="nav-link"
-								>React Portfolio</a
-							>
-						</li>
-						<li class="nav-item">
-							<a href="../assignments/index.html" class="nav-link"
-								>Uppdrag</a
-							>
-						</li>
-						<li class="nav-item">
-							<a
-								href="../certifications/index.html"
-								class="nav-link"
-								>Certifieringar</a
-							>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="../react/index.html" class="nav-link"
+                                >React Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a href="../assignments/index.html" class="nav-link"
+                                >Uppdrag</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="../certifications/index.html"
+                                class="nav-link"
+                                >Certifieringar</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-		<!-- React Portfolio Header -->
-		<section class="mt-5 p-3 p-md-5 bg-secondary text-light text-sm-start">
-			<div class="container">
-				<div class="x-margin-top pt-3 justify-content-evenly">
-					<div class="col-md text-start assignment-col-width">
-						<h1><span>React Portfolio</span></h1>
-						<p>
-							Alla mina React-projekt innehåller länkar till
-							live-version och källkod. Klicka på knappen för att
-							läsa mer om varje projekt.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+        <!-- React Portfolio Header -->
+        <section class="mt-5 p-3 p-md-5 bg-secondary text-light text-sm-start">
+            <div class="container">
+                <div class="x-margin-top pt-3 justify-content-evenly">
+                    <div class="col-md text-start assignment-col-width">
+                        <h1><span>React Portfolio</span></h1>
+                        <p>
+                            Alla mina React-projekt innehåller länkar till
+                            live-version och källkod. Klicka på knappen för att
+                            läsa mer om varje projekt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<section class="p-3 p-md-5 bg-dark text-light">
-			<div class="container">
-				<div
-					class="row gx-5 gy-3 align-items-center justify-content-between"
-				>
-					<div class="col-md-5">
-						<a href="./tenzies.html"
-							><img
-								src="../img/tenzies-sv-small.png"
-								class="img-fluid img-reduced-size"
-								alt=""
-						/></a>
-					</div>
-					<div class="col-md">
-						<h3>Tio Samma</h3>
-						<p>Ett tärningsspel.</p>
-						<a href="./tenzies.html" class="my-btn">Läs mer</a>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="p-3 p-md-5 bg-dark text-light">
+            <div class="container">
+                <div
+                    class="row gx-5 gy-3 align-items-center justify-content-between"
+                >
+                    <div class="col-md-5">
+                        <a href="./tenzies.html"
+                            ><img
+                                src="../img/tenzies-sv-small.png"
+                                class="img-fluid img-reduced-size"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-md">
+                        <h3>Tio Samma</h3>
+                        <p>Ett tärningsspel.</p>
+                        <a href="./tenzies.html" class="my-btn">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<section class="p-3 p-md-5">
-			<div class="container">
-				<div
-					class="row gx-5 gy-3 align-items-center justify-content-between"
-				>
-					<div class="col-md-5">
-						<a href="./quizzical.html"
-							><img
-								src="../img/quizzical.png"
-								class="img-fluid img-reduced-size"
-								alt=""
-						/></a>
-					</div>
-					<div class="col-md">
-						<h3>Quizzical</h3>
-						<p>En frågesport med fem frågor.</p>
-						<a href="./quizzical.html" class="my-btn">Läs mer</a>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="p-3 p-md-5">
+            <div class="container">
+                <div
+                    class="row gx-5 gy-3 align-items-center justify-content-between"
+                >
+                    <div class="col-md-5">
+                        <a href="./quizzical.html"
+                            ><img
+                                src="../img/quizzical.png"
+                                class="img-fluid img-reduced-size"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-md">
+                        <h3>Quizzical</h3>
+                        <p>En frågesport med fem frågor.</p>
+                        <a href="./quizzical.html" class="my-btn">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<section class="p-3 p-md-5 bg-dark text-light">
-			<div class="container">
-				<div
-					class="row gx-5 gy-3 align-items-center justify-content-between"
-				>
-					<div class="col-md-5">
-						<a href="./vanlife.html"
-							><img
-								src="../img/vanlife.png"
-								class="img-fluid img-reduced-size"
-								alt=""
-						/></a>
-					</div>
-					<div class="col-md">
-						<h3>Van Life</h3>
-						<p>Ett sätt att hyra ut din husbil.</p>
-						<a href="./vanlife.html" class="my-btn">Läs mer</a>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="p-3 p-md-5 bg-dark text-light">
+            <div class="container">
+                <div
+                    class="row gx-5 gy-3 align-items-center justify-content-between"
+                >
+                    <div class="col-md-5">
+                        <a href="./vanlife.html"
+                            ><img
+                                src="../img/vanlife.png"
+                                class="img-fluid img-reduced-size"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-md">
+                        <h3>Van Life</h3>
+                        <p>Ett sätt att hyra ut din husbil.</p>
+                        <a href="./vanlife.html" class="my-btn">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<section class="p-3 p-md-5">
-			<div class="container">
-				<div
-					class="row gx-5 gy-3 align-items-center justify-content-between"
-				>
-					<div class="col-md-5">
-						<a href="./components.html"
-							><img
-								src="../img/banners.png"
-								class="img-fluid img-reduced-size"
-								alt=""
-						/></a>
-					</div>
-					<div class="col-md">
-						<h3>React-komponenter</h3>
-						<p>En övning i att bygga återanvändbara komponenter.</p>
-						<a href="./components.html" class="my-btn">Läs mer</a>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="p-3 p-md-5">
+            <div class="container">
+                <div
+                    class="row gx-5 gy-3 align-items-center justify-content-between"
+                >
+                    <div class="col-md-5">
+                        <a href="./components.html"
+                            ><img
+                                src="../img/banners.png"
+                                class="img-fluid img-reduced-size"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-md">
+                        <h3>React-komponenter</h3>
+                        <p>En övning i att bygga återanvändbara komponenter.</p>
+                        <a href="./components.html" class="my-btn">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<section class="p-3 p-md-5 bg-dark text-light">
-			<div class="container">
-				<div
-					class="row gx-5 gy-3 align-items-center justify-content-between"
-				>
-					<div class="col-md-5">
-						<a href="./travel-journal.html"
-							><img
-								src="../img/travel-journal.png"
-								class="img-fluid img-reduced-size"
-								alt=""
-						/></a>
-					</div>
-					<div class="col-md">
-						<h3>Travel Journal</h3>
-						<p>En presentation av några av mina resmål.</p>
-						<a href="./travel-journal.html" class="my-btn"
-							>Läs mer</a
-						>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="p-3 p-md-5 bg-dark text-light">
+            <div class="container">
+                <div
+                    class="row gx-5 gy-3 align-items-center justify-content-between"
+                >
+                    <div class="col-md-5">
+                        <a href="./travel-journal.html"
+                            ><img
+                                src="../img/travel-journal.png"
+                                class="img-fluid img-reduced-size"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-md">
+                        <h3>Travel Journal</h3>
+                        <p>En presentation av några av mina resmål.</p>
+                        <a href="./travel-journal.html" class="my-btn"
+                            >Läs mer</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<section class="p-3 p-md-5">
-			<div class="container">
-				<div
-					class="row gx-5 gy-3 align-items-center justify-content-between"
-				>
-					<div class="col-md-5">
-						<a href="./avatar.html"
-							><img
-								src="../img/avatars.png"
-								class="img-fluid img-reduced-size"
-								alt=""
-						/></a>
-					</div>
-					<div class="col-md">
-						<h3>Avatar</h3>
-						<p>En återanvändbar React-komponent.</p>
-						<a href="./avatar.html" class="my-btn">Läs mer</a>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="p-3 p-md-5">
+            <div class="container">
+                <div
+                    class="row gx-5 gy-3 align-items-center justify-content-between"
+                >
+                    <div class="col-md-5">
+                        <a href="./avatar.html"
+                            ><img
+                                src="../img/avatars.png"
+                                class="img-fluid img-reduced-size"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-md">
+                        <h3>Avatar</h3>
+                        <p>En återanvändbar React-komponent.</p>
+                        <a href="./avatar.html" class="my-btn">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<!-- Footer -->
-		<footer
-			class="p-3 p-md-5 bg-dark text-light text-center position-relative"
-		>
-			<div class="container">
-				<div class="row align-items-center justify-content-between">
-					<div class="col-md py-3">
-						<p>Copyright &copy; 2024 Tom Serenander Konsult AB</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+        <!-- Footer -->
+        <footer
+            class="p-3 p-md-5 bg-dark text-light text-center position-relative"
+        >
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md py-3">
+                        <p>Copyright &copy; 2024 Tom Serenander Konsult AB</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous"
-		></script>
-	</body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./index.js"></script>
+    </body>
 </html>

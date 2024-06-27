@@ -17,6 +17,7 @@ async function setEnglishLanguage() {
 }
 
 async function changeLanguage(lang) {
+    localStorage.setItem('language', lang)
     if (lang === 'en') {
         setEnglishLanguage()
     } else {
@@ -24,4 +25,13 @@ async function changeLanguage(lang) {
     }
 }
 
-setSwedishLanguage()
+async function readLanguageFromLocalStorage() {
+    const lang = localStorage.getItem('language')
+    if (lang && lang === 'en') {
+        setEnglishLanguage()
+    } else {
+        setSwedishLanguage()
+    }
+}
+
+readLanguageFromLocalStorage()
