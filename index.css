@@ -48,6 +48,7 @@ body {
 
 .select-language-list li:hover {
     border-color: white;
+    cursor: pointer;
 }
 
 img.flag {

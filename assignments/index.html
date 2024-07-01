@@ -43,26 +43,57 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto me-5">
                         <li class="nav-item">
                             <a href="../react/index.html" class="nav-link"
                                 >React Portfolio</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a href="../assignments/index.html" class="nav-link"
+                            <a
+                                href="../assignments/index.html"
+                                class="nav-link swedish"
                                 >Uppdrag</a
+                            >
+                            <a
+                                href="../assignments/index.html"
+                                class="nav-link english"
+                                >Assignments</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 href="../certifications/index.html"
-                                class="nav-link"
+                                class="nav-link swedish"
                                 >Certifieringar</a
+                            >
+                            <a
+                                href="../certifications/index.html"
+                                class="nav-link english"
+                                >Certifications</a
                             >
                         </li>
                     </ul>
                 </div>
+
+                <ul class="navbar-nav select-language-list mt-2 ml-1">
+                    <li class="swedish-option" onclick="changeLanguage('se')">
+                        <a href="#">
+                            <img
+                                class="flag"
+                                src="../img/SE.svg"
+                                alt="Swedish icon"
+                        /></a>
+                    </li>
+                    <li class="english-option" onclick="changeLanguage('en')">
+                        <a href="#">
+                            <img
+                                class="flag"
+                                src="../img/GB.svg"
+                                alt="Great Britain icon"
+                        /></a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -607,6 +638,6 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"
         ></script>
-        <script src="./index.js"></script>
+        <script src="../index.js"></script>
     </body>
 </html>
