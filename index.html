@@ -66,28 +66,24 @@
                     </ul>
                 </div>
 
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#" onclick="changeLanguage('en')"
-                                >English
-                                <img
-                                    class="flag"
-                                    src="./img/GB.svg"
-                                    alt="Great Britain icon"
-                            /></a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="changeLanguage('se')"
-                                >Swedish
-                                <img
-                                    class="flag"
-                                    src="./img/SE.svg"
-                                    alt="Swedish icon"
-                            /></a>
-                        </li>
-                    </ul>
-                </nav>
+                <ul class="select-language-list">
+                    <li class="swedish-option" onclick="changeLanguage('se')">
+                        <a href="#">
+                            <img
+                                class="flag"
+                                src="./img/SE.svg"
+                                alt="Swedish icon"
+                        /></a>
+                    </li>
+                    <li class="english-option" onclick="changeLanguage('en')">
+                        <a href="#">
+                            <img
+                                class="flag"
+                                src="./img/GB.svg"
+                                alt="Great Britain icon"
+                        /></a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -114,10 +110,17 @@
         </header>
 
         <section class="x-margin-top p-1">
-            <div class="container">
+            <div class="container swedish">
                 <h2>
                     Jag är systemutvecklare med fokus på
                     <span class="accent-text">React</span> och
+                    <span class="accent-text">.Net</span>
+                </h2>
+            </div>
+            <div class="container english">
+                <h2>
+                    I'm a System Developer with focus on
+                    <span class="accent-text">React</span> and
                     <span class="accent-text">.Net</span>
                 </h2>
             </div>

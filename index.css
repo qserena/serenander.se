@@ -29,6 +29,32 @@ body {
     text-align: right;
 }
 
+.select-language-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.select-language-list li {
+    margin: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: rgba(255, 255, 255, 0.5) solid 6px;
+}
+
+.select-language-list li.selected {
+    border-color: white;
+}
+
+.select-language-list li:hover {
+    border-color: white;
+}
+
+img.flag {
+    height: 1em;
+    width: 1.5em;
+}
+
 .select-ok {
     -webkit-user-select: text;
     user-select: text;
@@ -272,16 +298,6 @@ footer p {
 .social-icon-reduced {
     width: 80%;
     padding-top: 2px;
-}
-
-span[lang='en'],
-span[lang='fr'] {
-    display: none;
-}
-
-img.flag {
-    height: 12%;
-    width: 12%;
 }
 
 @media (max-width: 500px) {

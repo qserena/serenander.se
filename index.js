@@ -1,18 +1,36 @@
 async function setSwedishLanguage() {
+    // Show Swedish text, hide English text
+    document.querySelectorAll('.swedish').forEach((elem) => {
+        elem.style.display = 'block'
+    })
     document.querySelectorAll('.english').forEach((elem) => {
         elem.style.display = 'none'
     })
-    document.querySelectorAll('.swedish').forEach((elem) => {
-        elem.style.display = 'block'
+
+    // Handle visual appearance of language selector
+    document.querySelectorAll('.swedish-option').forEach((elem) => {
+        elem.classList.add('selected')
+    })
+    document.querySelectorAll('.english-option').forEach((elem) => {
+        elem.classList.remove('selected')
     })
 }
 
 async function setEnglishLanguage() {
+    // Hide Swedish text, show English text
     document.querySelectorAll('.swedish').forEach((elem) => {
         elem.style.display = 'none'
     })
     document.querySelectorAll('.english').forEach((elem) => {
         elem.style.display = 'block'
+    })
+
+    // Handle visual appearance of language selector
+    document.querySelectorAll('.swedish-option').forEach((elem) => {
+        elem.classList.remove('selected')
+    })
+    document.querySelectorAll('.english-option').forEach((elem) => {
+        elem.classList.add('selected')
     })
 }
 
