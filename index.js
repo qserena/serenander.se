@@ -3,7 +3,13 @@ async function setSwedishLanguage() {
     document.querySelectorAll('.swedish').forEach((elem) => {
         elem.style.display = 'block'
     })
+    document.querySelectorAll('.swedish-inline-block').forEach((elem) => {
+        elem.style.display = 'inline-block'
+    })
     document.querySelectorAll('.english').forEach((elem) => {
+        elem.style.display = 'none'
+    })
+    document.querySelectorAll('.english-inline-block').forEach((elem) => {
         elem.style.display = 'none'
     })
 
@@ -21,8 +27,14 @@ async function setEnglishLanguage() {
     document.querySelectorAll('.swedish').forEach((elem) => {
         elem.style.display = 'none'
     })
+    document.querySelectorAll('.swedish-inline-block').forEach((elem) => {
+        elem.style.display = 'none'
+    })
     document.querySelectorAll('.english').forEach((elem) => {
         elem.style.display = 'block'
+    })
+    document.querySelectorAll('.english-inline-block').forEach((elem) => {
+        elem.style.display = 'inline-block'
     })
 
     // Handle visual appearance of language selector
