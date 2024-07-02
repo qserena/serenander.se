@@ -70,7 +70,7 @@ h2 {
 
 h1 {
     font-size: 3.75rem; /* 60px */
-    margin-top: 0.3em;
+    line-height: 1.8em;
 }
 
 h1 span {
@@ -305,6 +305,7 @@ footer p {
 @media (max-width: 500px) {
     h1 {
         font-size: 2.5rem; /* 40px */
+        margin-top: 1em;
     }
 
     h1 span {
