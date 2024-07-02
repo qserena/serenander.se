@@ -274,6 +274,7 @@ h3 span {
 
 .project-details__showcase-img-reduced {
     width: 100%;
+    margin: 0 auto;
     max-width: 500px;
     border: solid gray 1px;
 }
