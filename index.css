@@ -43,7 +43,7 @@ body {
 }
 
 .select-language-list li:hover {
-    border-color: #919297;
+    border-color: white;
     cursor: pointer;
 }
 
