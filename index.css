@@ -39,7 +39,7 @@ body {
 .select-language-list li {
     margin: 0 10px;
     padding-bottom: 5px;
-    border-bottom: #55565b solid 6px;
+    border-bottom: #55565b solid 3px;
 }
 
 .select-language-list li:hover {
