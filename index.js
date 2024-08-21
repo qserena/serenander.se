@@ -1,3 +1,6 @@
+const defaultLanguage = 'en'
+//const defaultLanguage = 'sv'
+
 async function setSwedishLanguage() {
     // Show Swedish text, hide English text
     document.querySelectorAll('.swedish').forEach((elem) => {
@@ -46,22 +49,25 @@ async function setEnglishLanguage() {
     })
 }
 
-async function changeLanguage(lang) {
+async function setLanguage(lang) {
     localStorage.setItem('language', lang)
     if (lang === 'en') {
         setEnglishLanguage()
-    } else {
+    } else if (lang === 'sv') {
         setSwedishLanguage()
     }
+    console.log(lang)
 }
 
 async function readLanguageFromLocalStorage() {
     const lang = localStorage.getItem('language')
-    if (lang && lang === 'en') {
-        setEnglishLanguage()
-    } else {
-        setSwedishLanguage()
+
+    if (!lang) {
+        // If no language is set, set default language
+        lang = defaultLanguage
     }
+
+    setLanguage(lang)
 }
 
 readLanguageFromLocalStorage()
