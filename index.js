@@ -60,7 +60,7 @@ async function setLanguage(lang) {
 }
 
 async function readLanguageFromLocalStorage() {
-    const lang = localStorage.getItem('language')
+    let lang = localStorage.getItem('language')
 
     if (lang === null || lang === undefined || lang === '') {
         // If no language is set, set default language
