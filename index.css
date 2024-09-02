@@ -70,12 +70,13 @@ h2 {
 
 h1 {
     font-size: 3.75rem; /* 60px */
-    line-height: 1.8em;
+    line-height: 1.6em;
 }
 
 h1 span {
     font-size: 5rem; /* 80px */
     font-weight: 700;
+    line-height: 1.1em;
     display: block;
     margin-bottom: 0.25em; /* 20px */
 }
@@ -270,16 +271,11 @@ h3 span {
     border: solid lightgray 2px;
 }
 
-.project-details_img {
+.project-details-img {
     width: 100%;
 }
 
-.project-details_img-border {
-    width: 100%;
-    border: solid lightgray 2px;
-}
-
-.project-details_img-reduced {
+.project-details-img-reduced {
     width: 100%;
     margin: 0 auto;
     max-width: 500px;
