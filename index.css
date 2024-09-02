@@ -266,16 +266,28 @@ h3 span {
     max-height: 200px;
 }
 
-.project-details__showcase-img {
-    width: 100%;
-    border: solid gray 1px;
+.img-border {
+    border: solid lightgray 2px;
 }
 
-.project-details__showcase-img-reduced {
+.project-details_img {
+    width: 100%;
+}
+
+.project-details_img-border {
+    width: 100%;
+    border: solid lightgray 2px;
+}
+
+.project-details_img-reduced {
     width: 100%;
     margin: 0 auto;
     max-width: 500px;
-    border: solid gray 1px;
+}
+
+.asterisk {
+    text-align: right;
+    font-size: 0.9em;
 }
 
 footer p {
