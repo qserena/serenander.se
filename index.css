@@ -11,6 +11,10 @@ body {
     text-align: center;
 }
 
+p em {
+    font-size: 0.8em;
+}
+
 .img-avatar {
     margin-top: 30px;
     width: 260px;
@@ -283,7 +287,7 @@ h3 span {
 
 .asterisk {
     text-align: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 footer p {
