@@ -301,8 +301,8 @@ footer p {
 }
 
 .social {
-    width: 50px;
-    margin: 2em 0.7em;
+    width: 60px;
+    margin: 3em 1em;
 }
 
 .social-icon-normal {
@@ -339,5 +339,9 @@ footer p {
 
     .my-btn-code {
         margin-left: 0;
+    }
+
+    .social {
+        margin: 0.3em;
     }
 }
