@@ -272,6 +272,11 @@ h3 span {
     max-height: 200px;
 }
 
+.img-semi-reduced-size {
+    max-width: 350px;
+    max-height: 200px;
+}
+
 .img-border {
     border: solid lightgray 2px;
 }
@@ -362,5 +367,10 @@ footer p {
 
     .social {
         margin: 0.3em;
+    }
+
+    .img-semi-reduced-size {
+        max-width: 250px;
+        max-height: 200px;
     }
 }
