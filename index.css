@@ -226,7 +226,8 @@ a {
 
 .skills__skill {
     padding: 0.6rem 1.6rem;
-    margin-right: 1.5rem;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
     border-radius: 5px;
