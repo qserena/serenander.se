@@ -292,8 +292,11 @@ h3 span {
 }
 
 .asterisk {
-    text-align: right;
     font-size: 0.8em;
+}
+
+.right {
+    text-align: right;
 }
 
 footer p {
